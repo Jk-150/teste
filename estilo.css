@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap');
+body{
+    background-color: rgb(68, 67, 67);
+    margin: 0px;
+}
+header{
+    background-color: rgb(44, 44, 44);
+    height: 100px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 65px;
+    color: rgb(104, 24, 104);
+    text-align: center;
+}
+main{
+    max-width: 1100px;
+    margin: auto;
+    font-family: 'Zen Loop', cursive;
+    color: azure;
+}
+main>p{
+    font-family: 'Zen Loop', cursive;
+    color: azure;
+    font-size: 45px;
+}
+img{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+li>p{  
+    margin: 0px;
+    color: azure;
+    font-size: 35px;
+    font-family: 'Zen Loop', cursive;
+    text-align: center;
+}
+#the{
+    height: 35px;
+    width: 35px;
+    display: inline-block;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    border-color: rgb(41, 41, 41);
+    border-style: solid;
+    border-radius: 10px;
+}
